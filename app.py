@@ -7,6 +7,7 @@ import pickle
 vector = pickle.load(open("vectorizer.pkl", 'rb'))
 model = pickle.load(open("finalized_model.pkl", 'rb'))
 
+# Adarsh
 app = Flask(__name__)
 
 @app.route('/')
